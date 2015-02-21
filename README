@@ -1,0 +1,54 @@
+======================
+Card Counting
+- by Brett Anderson -
+======================
+
+This project is a simple card counting application that will help you count
+cards while playing live blackjack at your online casino of choice.
+
+
+HOW IT WORKS
+-------------------
+Some online casinos will have a live blackjack game where you can play
+against an actual video recorded dealer, dealing very real cards. This
+program seeks to take advantage of this by tracking the cards that are
+dealt, keeping a "count" on the deck, so that useful information about
+the state of the deck can be gleened and used.
+
+At any point during the game you can enter your hand into the prompt at
+the top right corner of the window and the dealers up card in order to
+run a Monte Carlo simulation with the unique deck being tracked by the
+counter.  10,000 simulations take place with randomized versions of the
+deck and win/lose statistics are displayed showing which action to take,
+hit or stay.
+
+
+Specifically, during the game, track the cards being dealt by clicking
+on the card that comes out from the row on the left hand side of the
+window.  Face cards are all tracked using the "F" button. The "A" button
+is for Ace cards.
+
+To run simulations,  put in the respective symbol for your cards and the
+dealers cards using this table and press the "Run Monte Carlo" button:
+
+Ace :   A
+2   :   2
+3   :   3
+4   :   4
+5   :   5
+6   :   6
+7   :   7
+8   :   8
+9   :   9
+10  :   F
+J   :   F
+Q   :   F
+K   :   F
+
+At any point, you can start over with a brand new deck by clicking the
+"New Deck" button.
+
+The expected return values quoted when running the Monte Carlo simulation
+are the expected return on $100 bets.
+
+GOOD LUCK!
